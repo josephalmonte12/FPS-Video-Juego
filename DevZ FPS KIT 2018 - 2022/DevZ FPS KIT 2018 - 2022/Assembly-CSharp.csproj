@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{DA002290-1CD8-9A76-EC3D-C12ED9BBF56D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_0;UNITY_2018_1;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_POST_PROCESSING_STACK_V2;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2018.1.0f2</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.1.0f2\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\_Advanced Terrain Shaders v2\atsV2 UnityTerrainBump Package\CustomTerrainScriptAtsV2.cs" />
+    <Compile Include="Assets\_v1.0\BuggyDamageNew.cs" />
+    <Compile Include="Assets\_v1.0\C4\C4AnimationScript.cs" />
+    <Compile Include="Assets\_v1.0\C4\c4RaycastNew.cs" />
+    <Compile Include="Assets\_v1.0\C4\ControllerGadget.cs" />
+    <Compile Include="Assets\_v1.0\C4\DestructionDamageNew.cs" />
+    <Compile Include="Assets\_v1.0\C4\ExplosivesDrop.cs" />
+    <Compile Include="Assets\_v1.0\C4\ScripotExplosion.cs" />
+    <Compile Include="Assets\_v1.0\CameraBobLaddersProne.cs" />
+    <Compile Include="Assets\_v1.0\DamagePlayer.cs" />
+    <Compile Include="Assets\_v1.0\GlassScriptNew.cs" />
+    <Compile Include="Assets\_v1.0\Helicopter\Meshes\HelicopterArtwork\Scripts\Helicopter\GameObjectSpeedNew.cs" />
+    <Compile Include="Assets\_v1.0\Helicopter\Meshes\HelicopterArtwork\Scripts\Helicopter\HelicopterControllerNew.cs" />
+    <Compile Include="Assets\_v1.0\Helicopter\Meshes\HelicopterArtwork\Scripts\Helicopter\RotorHitNew.cs" />
+    <Compile Include="Assets\_v1.0\Helicopter\Meshes\HelicopterArtwork\VehicleCameraNew.cs" />
+    <Compile Include="Assets\_v1.0\Helicopter\NewScripts\HeadLookScripts\Sharp\CursorHit.cs" />
+    <Compile Include="Assets\_v1.0\Helicopter\NewScripts\HeadLookScripts\Sharp\HeadLookController.cs" />
+    <Compile Include="Assets\_v1.0\Helicopter\NewScripts\HelicopterHealthNew.cs" />
+    <Compile Include="Assets\_v1.0\Helicopter\OldScripts\Vehicle scripts\UseHelicopterScript.cs" />
+    <Compile Include="Assets\_v1.0\Helicopter\OldScripts\Vehicle scripts\UseVehicleScriptNew.cs" />
+    <Compile Include="Assets\_v1.0\OnEnabledExpoladNew.cs" />
+    <Compile Include="Assets\_v1.0\OnTriggerEnterPlaySoundNew.cs" />
+    <Compile Include="Assets\_v1.0\Parachute\ParachuteScriptNew.cs" />
+    <Compile Include="Assets\_v1.0\SoldierLegs\Soldier2\AnimationsNew.cs" />
+    <Compile Include="Assets\_v1.0\SoldierLegs\Soldier2\AnimationsShadowNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Effects\SlowMotionNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Effects\TiltWeapon2New.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Effects\TiltWeaponSidewaysNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Effects\VolumeControllerNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Effects\WeaponOnDelay.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Effects\WeaponOnDelay2.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Enemy\AstarAI.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Enemy\AStarBeastAINew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Enemy\AstarZombieNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Enemy\BeastDamageNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Enemy\BodyPartsDamageNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Enemy\EnemyDamageHeadNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Enemy\EnemyDamageNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Enemy\EnemyDamageRagdollNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Enemy\LauncherNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Enemy\ObjectDamageNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Enemy\RagdollInstantiatorNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Enemy\SentryGun\SentryGunAILogicsNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Enemy\SentryGun\SentryGunHealthNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Enemy\SpawnerWithVawesNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\HUDManager.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\DestroyAfter.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\DestryAfterNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\FadeLightNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\FadeOutNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\MoveUpAndDownNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\PickUpSkullsNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\PlayAudioNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\PlayRandomAnimationsNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\PlayShellDropSoundNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\PlaySoundNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\RandomSoundNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\ReloadCurrentLevelNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\RotateAroundNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\ScreenLock.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\TargetPointPositionNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Misc\TeleporterNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\AnimationBreath.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\AnimationsCamera.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\BreathRun.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\FootStepsController.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\HealthControllerPlayer.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Ladder Scripts\LadderEntity.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Ladder Scripts\LadderUse.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\ManagerScore.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\MiniMap.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\MouseLookNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\PauseMenu.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\RunBreathNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\BulletMarksNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\BulletNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\BulletSimpleNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\ClaymoreDamageNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\ClaymoreMineNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\ControllerWeapon.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\DynamicCrosshairNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\ExplosionAdvancedNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\Explosives.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\GrenadeNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\InfoBuyWeapon.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\InfoWeapon.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\InstantiateSentryGunNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\MeleeKnifeNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\PenetrationNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\ScriptExplosives.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\ScriptWeapon.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\StickGrenadeScriptNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\WeaponScriptAnimations.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Player\Weapon\WeaponsPlayer.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Temp\JSmouseLookNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Temp\RotatetWheel.cs" />
+    <Compile Include="Assets\Resources\_Scripts\Temp\SkitEmiterNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\UI\ConsoleInputSubmit.cs" />
+    <Compile Include="Assets\Resources\_Scripts\UI\GadgetItem.cs" />
+    <Compile Include="Assets\Resources\_Scripts\UI\SettingsOption.cs" />
+    <Compile Include="Assets\Resources\_Scripts\UI\SkillItem.cs" />
+    <Compile Include="Assets\Resources\_Scripts\v0.9\ArrowNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\v0.9\BuggyAdjustRotationNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\v0.9\CheckTargetNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\v0.9\FollowWaypointsNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\v0.9\JetDamageNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\v0.9\KeepSizeNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\v0.9\ParkourConfigNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\v0.9\ParkourControllerNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\v0.9\RocketNew.cs" />
+    <Compile Include="Assets\Resources\_Scripts\v0.9\UseVehicleNew.cs" />
+    <Compile Include="Assets\Resources\Assets\LoopScrollRect\Demo\Scripts\ScrollIndexCallback1.cs" />
+    <Compile Include="Assets\Resources\Assets\LoopScrollRect\Demo\Scripts\ScrollIndexCallback2.cs" />
+    <Compile Include="Assets\Resources\Assets\LoopScrollRect\Demo\Scripts\ScrollIndexCallback3.cs" />
+    <Compile Include="Assets\Resources\Assets\LoopScrollRect\Demo\Scripts\ScrollIndexCallback4.cs" />
+    <Compile Include="Assets\Resources\Assets\LoopScrollRect\Scripts\EasyObjectPool\EasyObjectPool.cs" />
+    <Compile Include="Assets\Resources\Assets\LoopScrollRect\Scripts\EasyObjectPool\ResourceManager.cs" />
+    <Compile Include="Assets\Resources\Assets\LoopScrollRect\Scripts\InitOnStart.cs" />
+    <Compile Include="Assets\Resources\Assets\LoopScrollRect\Scripts\InitOnUpdate.cs" />
+    <Compile Include="Assets\Resources\Assets\LoopScrollRect\Scripts\LoopHorizontalScrollRect.cs" />
+    <Compile Include="Assets\Resources\Assets\LoopScrollRect\Scripts\LoopScrollDataSource.cs" />
+    <Compile Include="Assets\Resources\Assets\LoopScrollRect\Scripts\LoopScrollPrefabSource.cs" />
+    <Compile Include="Assets\Resources\Assets\LoopScrollRect\Scripts\LoopScrollRect.cs" />
+    <Compile Include="Assets\Resources\Assets\LoopScrollRect\Scripts\LoopVerticalScrollRect.cs" />
+    <Compile Include="Assets\Resources\Meshes\_NEW Models\ORB\Orb\healthcontroller.cs" />
+    <Compile Include="Assets\Resources\Meshes\_NEW Models\ORB\Orb\OrbController.cs" />
+    <None Include="Assets\_Advanced Terrain Shaders v2\readme_treeBarkShader.txt" />
+    <None Include="Assets\Resources\Shaders\SkyBoxBlended.shader" />
+    <None Include="Assets\_Advanced Terrain Shaders v2\readme_grassShader.txt" />
+    <None Include="Assets\Resources\Meshes\_NEW Models\CrossBowModel\Cross Bow Animations.txt" />
+    <None Include="Assets\_Advanced Terrain Shaders v2\atsV2 billboardShader package\TreeCreatorLeavesRendertex.shader" />
+    <None Include="Assets\_Advanced Terrain Shaders v2\atsV2 billboardShader package\TreeCreatorBarkRendertex.shader" />
+    <None Include="Assets\Resources\Shaders\Skin Shaders\SkinDiffuse.shader" />
+    <None Include="Assets\_Advanced Terrain Shaders v2\ats vertexLitShader Package\Shader\atsv2 vertexlit.shader" />
+    <None Include="Assets\Resources\Shaders\Skin Shaders\SkinBumpedSpecular.shader" />
+    <None Include="Assets\_Advanced Terrain Shaders v2\atsV2 grassShader Package\atsV2WavingGrass.shader" />
+    <None Include="Assets\Resources\Sounds\FromTutorial\Links.txt" />
+    <None Include="Assets\Resources\Textures\NobiaxTextures\Textures2\readme.txt" />
+    <None Include="Assets\Resources\Shaders\Skin Shaders\SkinSpecular.shader" />
+    <None Include="Assets\_Advanced Terrain Shaders v2\readme_billboardShader.txt" />
+    <None Include="Assets\_Advanced Terrain Shaders v2\atsV2 billboardShader package\Tree.cginc" />
+    <None Include="Assets\_Advanced Terrain Shaders v2\readme_terrainBumpShader.txt" />
+    <None Include="Assets\_Advanced Terrain Shaders v2\atsV2 UnityTerrainBump Package\TerrainReplacementAtsV2.shader" />
+    <None Include="Assets\_v0.9\FootstepSounds\Link to source.txt" />
+    <None Include="Assets\Resources\Textures\NobiaxTextures\Textures01\readme.txt" />
+    <None Include="Assets\Resources\Shaders\Skin Shaders\Skin Shader.shader" />
+    <None Include="Assets\Resources\Textures\NobiaxTextures\readme.txt" />
+    <None Include="Assets\Resources\Shaders\Skin Shaders\skinhelpers.cginc" />
+    <None Include="Assets\_v1.0\Helicopter\Shaders\Particle Multiply.shader" />
+    <None Include="Assets\_Advanced Terrain Shaders v2\readme_vertexLitShader.txt" />
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>C:/Users/josep/Downloads/DevZ FPS KIT 2018 - 2022/DevZ FPS KIT 2018 - 2022/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/josep/Downloads/DevZ FPS KIT 2018 - 2022/DevZ FPS KIT 2018 - 2022/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CloudWebServicesModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FacebookModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTrackingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>C:/Users/josep/Downloads/DevZ FPS KIT 2018 - 2022/DevZ FPS KIT 2018 - 2022/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>C:/Users/josep/Downloads/DevZ FPS KIT 2018 - 2022/DevZ FPS KIT 2018 - 2022/Assets/Plugins/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="Pathfinding.JsonFx">
+      <HintPath>C:/Users/josep/Downloads/DevZ FPS KIT 2018 - 2022/DevZ FPS KIT 2018 - 2022/Assets/Plugins/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/josep/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/josep/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/josep/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{AD491D6D-457D-1CBB-EB0D-08056828A6C4}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

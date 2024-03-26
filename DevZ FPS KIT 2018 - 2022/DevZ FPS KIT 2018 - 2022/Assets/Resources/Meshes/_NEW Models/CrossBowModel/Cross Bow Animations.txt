@@ -1,0 +1,4 @@
+1-16 : Shoot
+17-37 : Reload.
+
+They can also be done straight after one another as it is all fluid.

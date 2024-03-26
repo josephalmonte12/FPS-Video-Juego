@@ -1,0 +1,8 @@
+Zombie bite sound:
+http://www.freesound.org/people/Slave2theLight/sounds/157049/
+
+FootStep:
+http://www.freesound.org/people/swuing/sounds/38874/
+
+ZombieDie:
+http://www.freesound.org/people/qubodup/sounds/169747/
